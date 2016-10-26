@@ -2,63 +2,140 @@
 <html>
 <head>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css"/>
 
 
     <title>GNM Hackathon</title>
 </head>
 
 <body>
+
+<!-- ========================================== HERE LIES THE MAIN MENU ================================== -->
+
     <div id="menu" class="col-md-12">
         <div class="wrapper">
-            <p>menu</p>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a `class="navbar-brand" href="#">Project name</a> -->
+                  </div>
+                  <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                      <li><a href="#landing">Home</a></li>
+                      <li><a href="#">The Challenge</a></li>
+                      <li><a href="#">Programme</a></li>
+                      <li><a href="#">Supported By</a></li>
+                      <li><a href="#">Mentors</a></li>
+                      <li><a href="#">Location</a></li>
+                      <li><a id="menu_join_us" href="#">Join Us</a></li>
+
+                    </ul>
+                   
+                  </div><!--/.nav-collapse -->
+                </div><!--/.container-fluid -->
+              </nav>
+
         </div>
     </div>
 
+<!-- ================================================== THIS IS THE LANDING PAGE ============================================= -->
+
     <div id="landing" class="col-md-12">
         <div class="wrapper">
-            <p>landing</p>
+            <div class="landing_container">
+                <img id="landing_logo" src="images/logo.png"/>
+                <h1 id="landing_slogan">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+            </div>
         </div>
     </div>
 
     <div id="about" class="col-md-12">
         <div class="wrapper">
-            <p>about</p>
+            <h1 class="main_header">About The Challenge</h1>
+            <div class="col-md-6 ">
+                <div class="textbox big_textbox">
+                    <p>
+                        Over the course of two days, we will bring together 50 community members whose experiences and expertise could include academic studies in computing science, design, fine art, or museum studies, as well as practitioners, coders, makers, museum patrons and nature enthusiasts. Anyone is welcome – you don’t have to be a ‘hacker’ – you don’t even need to be ‘techie’, and you certainly won’t need to stay up all night, sleep on the floor, or exist off a diet of pizza and Coke. You just need an interest in and enthusiasm for reimagining and even remaking a beloved community space – Newcastle’s Great North Museum: Hancock. Your willingness to take part in a creative, inclusive design activity will feed into a process resulting in the development of a locally produced bespoke application for the GNM in 2017.
+                    </p>
+                    <p>
+     
+                        During the weekend we will help participants form interdisciplinary teams to compete in a Design Challenge, mentored by leading academics and practitioners from the worlds of museum
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div class="textbox big_textbox">
+                    
+                    <p>
+                        studies, human computer interaction, performance, and public interfaces.  You will take part in a variety of activities designed to challenge preconceived notions of what a museum means to its community, with several keynote speakers selected provoke new ways of considering the museum experience.
+                    </p>
+
+                    <p>
+                        By the end of the weekend your team will have created a prototype that will be judged by a panel of experts. Your team could win prizes and accolades, but most importantly, the prototypes will go forward as an inspiration for a further round of refinement in which regionally based software developers will be funded to implement an actual application for use at the GNM. By taking part and sharing your ideas, you have the opportunity to give back to your community, helping advance the state of the art in digital heritage at the Great North Museum, and making possible new and exciting ways to engage with the vast wealth of collections held by Tyne and Wear Archives and Museums.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
+
+
+<!-- ===================================== THIS IS THE PAGE THAT DESCRIBES THE PROGRAM ============================== -->
 
     <div id="programme" class="col-md-12">
         <div class="wrapper">
-            <p>programme</p>
+            <h1 class="main_header">Programme</h1>
+            <div class="col-md-6">
+                <p>Saturday 3th November 2016</p>
+            </div>
+
+            <div class="col-md-6">
+                <p>Sunday 4th November 2016</p>
+            </div>
         </div>
     </div>
+
+<!-- ============================ Supporter's page ====================================== -->
 
     <div id="supporters" class="col-md-12">
         <div class="wrapper">
-            <p>supporters</p>
+            <h1 class="main_header">Supporters</h1>
         </div>
     </div>
+
+<!-- ============================== MENTORS =============================== -->
 
     <div id="mentors" class="col-md-12">
         <div class="wrapper">
-            <p>mentors</p>
+            <h1 class="main_header">Mentors</h1>
         </div>
     </div>
+
+<!-- ============================== Location ========================= -->
 
     <div id="location" class="col-md-12">
         <div class="wrapper">
-            <p>location</p>
+            <h1 class="main_header">Location</h1>
         </div>
     </div>
 
+<!-- ============================ Join ====================== -->
+
     <div id="join" class="col-md-12">
         <div class="wrapper">
-            <p>join</p>
+            <h1 class="main_header">Join</h1>
         </div>
     </div>
 
@@ -74,4 +151,11 @@
 
 
 <!-- Latest compiled and minified JavaScript -->
+<!-- <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script> -->
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+

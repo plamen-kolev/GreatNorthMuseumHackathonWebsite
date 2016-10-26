@@ -1,5 +1,77 @@
-button {
-  background: red;
-  color: green; }
+@import url("https://fonts.googleapis.com/css?family=Droid+Serif|Montserrat+Alternates");
+body {
+  margin: 0px;
+  padding: 0px; }
+
+p {
+  font-family: 'Droid Serif', serif;
+  font-size: 1.3em; }
+
+.textbox {
+  background-color: #f9f9f9;
+  padding: 12px; }
+
+.big_textbox {
+  min-height: 500px; }
+
+.main_header {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: auto;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 3em; }
+
+.wrapper {
+  max-width: 1200px;
+  margin: auto; }
+
+#menu {
+  height: 120px;
+  background-color: #37241b; }
+
+.navbar {
+  background: none;
+  border: none;
+  margin-top: 50px;
+  font-size: 1.3em;
+  box-shadow: none; }
+
+#menu li a {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #dadfe1; }
+
+#menu li a:hover {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: #c5552e; }
+
+#menu_join_us {
+  background: #c5552e;
+  border-radius: 2px; }
+
+#menu_join_us:hover {
+  color: black !important; }
+
+.navbar-nav > li {
+  margin-left: 12px; }
+
+#landing {
+  background-color: #37241b; }
+
+.landing_container {
+  width: 1200px;
+  height: 720px;
+  background: url("../images/landing.jpg");
+  text-align: center; }
+
+#landing_logo {
+  margin-top: 250px; }
+
+#landing_slogan {
+  color: wheat;
+  max-width: 620px;
+  margin: auto;
+  margin-top: 44px;
+  font-family: 'Montserrat Alternates', sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
