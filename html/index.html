@@ -15,7 +15,7 @@
 
 <body>
 
-<!-- ========================================== HERE LIES THE MAIN MENU ================================== -->
+<!--    ====== HERE LIES THE MAIN MENU   ========== -->
 
     <div id="menu" class="col-md-12">
         <div class="wrapper">
@@ -31,16 +31,17 @@
                     <!-- <a `class="navbar-brand" href="#">Project name</a> -->
                   </div>
                   <div id="navbar" class="navbar-collapse collapse">
+                    <a id="contact_email" class="pull-right" href="mailto:someemail@something.com">someemail@something.com</a>
+
                     <ul class="nav navbar-nav">
                       <li><a href="#landing">Home</a></li>
                       <li><a href="#about">The Challenge</a></li>
                       <li><a href="#programme">Programme</a></li>
-                      <li><a href="#">Mentors</a></li>
-                      <li><a href="#">Location</a></li>
-                      <li><a id="menu_join_us" href="#">Join Us</a></li>
-                      <li><a href="#">Supported By</a></li>
+                      <li><a href="#mentors">Mentors</a></li>
+                      <li><a href="#location">Location</a></li>
+                      <li><a id="menu_join_us" href="#join">Join Us</a></li>
+                      <li><a href="#supporters">Supported By</a></li>
                     </ul>
-
                   </div><!--/.nav-collapse -->
                 </div><!--/.container-fluid -->
               </nav>
@@ -48,7 +49,7 @@
         </div>
     </div>
 
-<!-- ================================================== THIS IS THE LANDING PAGE ============================================= -->
+<!--     == THIS IS THE LANDING PAGE    ========= -->
 
     <div id="landing" class="col-md-12">
         <div class="wrapper">
@@ -87,11 +88,19 @@
                     </p>
                 </div>
             </div>
+            <div class="pull-right" id="about_action">
+                 <a id="join_us_button" href="mailto:no-one@nosite?subject=editme">
+                    <button id="join_button_style" type="button" class="btn btn-primary">
+                        Join Us
+                    </button>
+                </a>
+            </div>
+           
         </div>
     </div>
 
 
-<!-- ===================================== THIS IS THE PAGE THAT DESCRIBES THE PROGRAmMe ============================== -->
+<!--    = THIS IS THE PAGE THAT DESCRIBES THE PROGRAmMe   ====== -->
 
     <div id="programme" class="col-md-12">
         <div class="wrapper">
@@ -222,7 +231,7 @@
     </div>
 
 
-<!-- ============================== MENTORS =============================== -->
+<!--   ====== MENTORS   ======= -->
 
     <div id="mentors" class="col-md-12">
         <div class="wrapper">
@@ -291,7 +300,7 @@
         </div>
     </div>
 
-<!-- ============================== Location ========================= -->
+<!--   ====== Location   = -->
 
     <div id="location" class="col-md-12">
         <div class="wrapper">
@@ -301,7 +310,7 @@
 
     </div>
 
-<!-- ============================ Join ====================== -->
+<!--   ==== Join  ========== -->
 
     <div id="join" class="col-md-12 dark">
         <div class="wrapper">
@@ -320,15 +329,20 @@
             </div>
 
             <div class="col-md-3">
-                <div id="join_button_style">
-                    <a id="join_us_button" href="mailto:no-one@nosite?subject=editme">Join Us</a>
+                <div>
+                    <a id="join_us_button" href="mailto:no-one@nosite?subject=editme">
+                        <button id="join_button_style" type="button" class="btn btn-primary">
+                            Join Us
+                        </button>
+                    </a>
+                    <!-- <a id="join_us_button" href="mailto:no-one@nosite?subject=editme">Join Us</a> -->
                 </div>
             </div>
 
         </div>
     </div>
 
-<!-- ============================ Supporter's page ====================================== -->
+<!--   ==== Supporter's page    == -->
 
     <div id="supporters" class="col-md-12">
         <div class="wrapper">
@@ -423,7 +437,23 @@
 
     <div id="footer" class="col-md-12">
         <div class="wrapper">
-            <p>footer</p>
+            <div class="col-md-9">
+                <ul>
+                    <li><a href="#landing">Home</a>\</li>
+                    <li><a href="#about">The Challenge\</a></li>
+                    <li><a href="#programme">Programme\</a></li>
+                    <li><a href="#mentors">Mentors\</a></li>
+                    <li><a href="#location">Location\</a></li>
+                    <li><a href="#join">Join Us\</a></li>
+                    <li><a href="#supporters">Supported by</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3" id="copyright">
+                <p>&copy; Copyright <span>OpenLab</span> 2016</p>
+                <p>Design by <span>Plamen Kolev</span></p>
+            </div>
+
         </div>
     </div>
 
