@@ -194,7 +194,8 @@ p {
 #footer {
   background: #2a241e;
   height: 100px;
-  margin-top: 80px; }
+  margin-top: 80px;
+  clear: both; }
 
 #footer li {
   display: inline-block; }
