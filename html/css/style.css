@@ -14,6 +14,9 @@ p {
 .big_textbox {
   min-height: 500px; }
 
+.left_line {
+  border-left: solid 2px #dadfe1; }
+
 .main_header {
   font-family: 'Montserrat Alternates', sans-serif;
   margin: auto;
@@ -59,7 +62,7 @@ p {
   background-color: #37241b; }
 
 .landing_container {
-  width: 1200px;
+  width: 100%;
   height: 720px;
   background: url("../images/landing.jpg");
   text-align: center; }
@@ -73,5 +76,34 @@ p {
   margin: auto;
   margin-top: 44px;
   font-family: 'Montserrat Alternates', sans-serif; }
+
+.event_container {
+  margin-bottom: 20px; }
+
+.event_container span {
+  margin-right: 5px; }
+
+.events {
+  border-left: solid #dadfe1 2px; }
+
+.event {
+  background-color: #f56938;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+  max-width: 500px;
+  display: inline-block; }
+
+.event > p {
+  margin: 5px; }
+
+.left_line {
+  height: 200px; }
+
+.nopadding_left {
+  padding-left: 0; }
+
+.nopadding_right {
+  padding-right: 0; }
 
 /*# sourceMappingURL=style.css.map */
