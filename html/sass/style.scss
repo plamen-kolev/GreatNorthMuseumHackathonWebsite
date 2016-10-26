@@ -10,6 +10,11 @@ p{
     font-size:1.3em;
 }
 
+.pusher{
+    padding-top:50px;
+    background: #37241b;
+}
+
 .textbox{
     background-color:#f9f9f9;
     padding:12px;
@@ -45,7 +50,7 @@ p{
 .navbar{
     background: none;
     border: none;
-    margin-top: 50px;
+    // margin-top: 50px;
     font-size: 1.3em;
     box-shadow: none;
     z-index:1;
@@ -263,7 +268,7 @@ p{
 }
 
 #footer ul{
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 #footer li a, #footer li{
@@ -291,4 +296,37 @@ p{
     color:#afb0b0;
     font-size:0.9em;
     margin-top: -30px;
+}
+
+
+@media (max-width: 991px) {
+    .mobile_span{
+        width:100%;
+    }
+
+    #about_action button{
+        width:100%;
+        margin-bottom:50px;
+    }
+
+    .big_textbox{
+        min-height:auto;
+        margin-bottom:10px;
+    }
+
+    #join_us_header{
+        margin-top: 0px;
+        padding-top: 80px;
+    }
+
+    #copyright{
+        margin-top:5px;
+        float:left;
+        margin-left: 33px;
+
+    }
+
+    #footer ul{
+        padding-top:5px;
+    }
 }
