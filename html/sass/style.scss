@@ -10,6 +10,14 @@ p{
     font-size:1.3em;
 }
 
+#datebox{
+    background-color:#f56938;
+    color:white;
+    padding:10px;
+    margin-top:10px;
+    display: inline-block;
+}
+
 .pusher{
     padding-top:50px;
     background: #37241b;
@@ -125,7 +133,8 @@ p{
     color:white;
     padding:4px;
     border-radius:2px;
-    max-width: 500px;
+    // max-width: 500px;
+    width:85%;
     display: inline-block;
 }
 
@@ -150,7 +159,7 @@ p{
     padding:2px;
     margin-bottom:10px;
     border:1px #dadfe1 solid;
-    min-height:300px;
+    min-height:250px;
     padding-top:15px;
 }
 
@@ -357,5 +366,9 @@ p{
 
     .landing_container{
         height:auto;
+    }
+
+    .mentor_image_container{
+        margin-top: 10px;
     }
 }
