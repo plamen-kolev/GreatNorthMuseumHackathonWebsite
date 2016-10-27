@@ -16,6 +16,7 @@ p{
     padding:10px;
     margin-top:10px;
     display: inline-block;
+    margin-bottom: 40px;
 }
 
 .pusher{
@@ -92,6 +93,7 @@ p{
 
 #landing{
     background-color:#37241b;
+    padding:0px;
 }
 
 .landing_container{
@@ -339,7 +341,7 @@ p{
 
     #copyright{
         margin-top:5px;
-        float:left;
+        // float:left;
         margin-left: 33px;
 
     }
@@ -371,4 +373,9 @@ p{
     .mentor_image_container{
         margin-top: 10px;
     }
+
+    #footer{
+        height:auto;
+    }
+
 }

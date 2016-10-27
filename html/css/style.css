@@ -12,7 +12,8 @@ p {
   color: white;
   padding: 10px;
   margin-top: 10px;
-  display: inline-block; }
+  display: inline-block;
+  margin-bottom: 40px; }
 
 .pusher {
   padding-top: 50px;
@@ -70,7 +71,8 @@ p {
   margin-left: 12px; }
 
 #landing {
-  background-color: #37241b; }
+  background-color: #37241b;
+  padding: 0px; }
 
 .landing_container {
   width: 100%;
@@ -253,7 +255,6 @@ p {
 
   #copyright {
     margin-top: 5px;
-    float: left;
     margin-left: 33px; }
 
   #footer ul {
@@ -272,6 +273,9 @@ p {
     height: auto; }
 
   .mentor_image_container {
-    margin-top: 10px; } }
+    margin-top: 10px; }
+
+  #footer {
+    height: auto; } }
 
 /*# sourceMappingURL=style.css.map */
