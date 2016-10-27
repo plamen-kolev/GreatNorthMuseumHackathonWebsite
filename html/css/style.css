@@ -140,6 +140,9 @@ p {
 .mentor {
   margin-bottom: 30px; }
 
+.sponsor {
+  min-height: 300px; }
+
 .sponsor h1, .mentor h1 {
   margin-top: 0px;
   font-family: 'Open Sans Bold', sans-serif; }
